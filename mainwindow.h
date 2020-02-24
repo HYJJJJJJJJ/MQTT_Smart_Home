@@ -37,8 +37,6 @@ private slots:// 槽函数定义
     void on_pushButton_connect_clicked();
     void onFanDuty_changed(int duty);
     void onColorDuty_changed(const QColor &color, double hue, double sat);
-    void on_pushButton_setColor_clicked();
-
 private:
     Ui::MainWindow *ui;
     GaugeWeather *gaugeweather;
