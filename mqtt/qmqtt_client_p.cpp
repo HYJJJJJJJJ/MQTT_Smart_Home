@@ -1,4 +1,4 @@
-/*
+/**
  * qmqtt_client_p.cpp - qmqtt client private
  *
  * Copyright (c) 2013  Ery Lee <ery.lee at gmail dot com>
