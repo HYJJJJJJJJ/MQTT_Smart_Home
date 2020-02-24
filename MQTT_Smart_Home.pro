@@ -65,3 +65,10 @@ else:unix: LIBS += -L$$PWD/lib/ -lQt5Qmqtt
 
 INCLUDEPATH += $$PWD/include
 DEPENDPATH += $$PWD/include
+
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/./ -lquc
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/./ -lqucd
+else:unix: LIBS += -L$$PWD/./ -lquc
+
+INCLUDEPATH += $$PWD/.
+DEPENDPATH += $$PWD/.

@@ -146,12 +146,6 @@ void MainWindow::onColorDuty_changed(const QColor &color, double hue, double sat
     client->publish(message);
 }
 
-void MainWindow::on_pushButton_setColor_clicked()
-{
-
-}
-
-
 // 成功连接到MQTT服务器
 void MainWindow::onMQTT_Connected(){                                    //根据79行的connect，当客户端与MQTT服务器成功连接，执行该槽函数
     qDebug()<<"服务器连接成功！";                                          //控制台输出（就和用vs里的cout一样）
