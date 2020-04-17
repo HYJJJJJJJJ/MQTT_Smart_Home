@@ -7,6 +7,9 @@
 *.so
 *.so.*
 *.dylib
+*.a
+*.dll
+*.prl
 
 # Qt-es
 object_script.*.Release
